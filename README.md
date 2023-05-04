@@ -4,7 +4,7 @@ diablo 2 resurrected mod with lootfilter
 # How to install:
 - copy the mods folder into diablo 2 directory
 - add line in your Battle.net app game settings:
--mod D2radvanced -txt
+-mod D2rAdvanced -txt
 
 
 # What does it include:
