@@ -35,4 +35,4 @@ diablo 2 resurrected mod with lootfilter
 ![D2R_4wJe0A2LMf](https://user-images.githubusercontent.com/13665931/236312980-40bb2236-499f-4474-bbe1-d866f8f21ff0.jpg)
 
 # Donate:
-If you find this mod usefull feel free to tip me with some forum golds: https://forums.d2jsp.org/user.php?i=211031
+If you find this mod useful feel free to tip me with some forum golds: https://forums.d2jsp.org/user.php?i=211031
