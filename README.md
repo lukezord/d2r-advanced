@@ -6,7 +6,6 @@ diablo 2 resurrected mod with lootfilter
 - add line in your Battle.net app game settings:
 -mod D2rAdvanced -txt
 
-
 # What does it include:
 - removed loading screens and videos
 - removed travincal roof
@@ -25,7 +24,6 @@ diablo 2 resurrected mod with lootfilter
 - coloured item stats, item names for runewords
 - good bases for rare and magic items are marked with star sign
 
-
 #Screenshots:
 
 ![D2R_6Y7drsEqcl](https://user-images.githubusercontent.com/13665931/236310102-e93305e5-5173-4582-a3a2-8ccbd167c2a5.jpg)
@@ -35,3 +33,6 @@ diablo 2 resurrected mod with lootfilter
 ![D2R_621Eowigm9](https://user-images.githubusercontent.com/13665931/236310972-aa926b72-7bf4-4b5a-bffa-6401fd48143a.jpg)
 ![D2R_5xPH5oZA9N](https://user-images.githubusercontent.com/13665931/236311071-74e82bd2-1009-4eb9-8158-f1ad7a015cb9.jpg)
 ![D2R_4wJe0A2LMf](https://user-images.githubusercontent.com/13665931/236312980-40bb2236-499f-4474-bbe1-d866f8f21ff0.jpg)
+
+#Donate:
+If you find this mod usefull feel free to tip me with some forum golds: https://forums.d2jsp.org/user.php?i=211031
