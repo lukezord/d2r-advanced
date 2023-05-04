@@ -1,0 +1,80 @@
+{
+  "dependencies": {
+    "particles": [
+      { "path": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light.particles" },
+      { "path": "data/hd/vfx/particles/objects/vfx_only/arcane_rune_5/vfx_arcanerune_5.particles" }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "act_3_mephisto_down_l",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3679030517,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": { "x": 0.0, "y": 0.3826834, "z": 0.0, "w": 0.9238795 },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_vfx1",
+      "id": 3495020604,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx1",
+          "filename": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "component_transform1",
+          "position": { "x": -6.0, "y": 1.0, "z": -9.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_beacon_downstairs",
+      "id": 586091854,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "prefab_TransformDefinitionComponent",
+          "position": { "x": 0.0, "y": -8.0, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 25.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "prefab_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/porory/beacon/pf_beacon_downstairs.json"
+        }
+      ]
+    }
+  ]
+}

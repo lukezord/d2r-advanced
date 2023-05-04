@@ -1,0 +1,94 @@
+{
+    "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
+    "fields": {
+        "priority": 10,
+        "anchor": { "x": 1.0, "y": 0.397 },
+        "rect": { "x": 236, "y": -651, "width": 2200, "height": 1507 },
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": "$PanelClickCatcherRect"
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "cubingarea",
+            "fields": {
+                "anchor": { "x": -0.9650, "y": 0.5302},
+                "rect": { "x": 198, "y": 65 },  //큐브틀 위치조정
+                "filename": "Controller/Panel/HoradricCube/V2/CubeArea"
+            },
+                "children": [
+                    {
+                    "type": "ClickCatcherWidget", "name": "click_catcher",
+                    "fields": {
+                        "rect": { "x": 0, "y": 0, "width": 377, "height": 484 },
+                        }
+                    },
+                ]
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                        "anchor": { "x": -0.9218, "y": 0.5939},
+                        "rect": { "x": 144, "y": 4 },  //그리드칸 위치조정
+                        "cellCount": { "x": 3, "y": 4 },
+                        "cellSize": "$ItemCellSize",
+                        "gemSocketFilename": "PANEL\\gemsocket",
+            },
+        },
+        /*{
+            "type": "ImageWidget", "name": "LeftHinge",  //왼쪽힌지 (끔)
+            "fields": {
+                "rect": "$LeftHingeRect",
+                "filename": "$LeftHingeSprite"
+            },
+        },*/
+        {
+            "type": "ButtonWidget", "name": "convert",
+            "fields": {
+                "anchor": { "x": -0.8809, "y": 0.8806}, 
+                "rect": { "x": 487, "y": -12 },  //변환버튼 위치조정
+                "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "tooltipString": "@strUiMenu2",
+                "hoveredFrame": 2,
+                "onClickMessage": "HoradricCubePanelMessage:Convert",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "close",
+            "fields": {
+                "rect": { "x": -1630, "y": 1426 },  //닫기버튼 위치조정
+                "filename": "PANEL\\closebtn_4x",
+                "hoveredFrame": 2,
+                "tooltipString": "@strClose",
+                "sound": "cursor_close_window_hd",
+                "onClickMessage": "HoradricCubePanelMessage:Close",
+            },
+        },
+        /*{
+            "type": "ButtonWidget", "name": "GuideOpen",
+            "fields": {
+                "rect": { "x": -1835, "y": 1331, "scale": 1.2 },  //큐빙공식 아이콘 위치조정 (허드랑 중복으로 일단 끔)
+                "filename": "PANEL/HUD_102/cubehelp_on",
+                "onClickMessage": "PanelManager:OpenPanel:CubeGuide",
+                "hoveredFrame": 1,
+                "tooltipString": "큐빙공식 도움말",
+                "sound": "select",
+            }
+        },*/
+        /*{
+            "type": "AnimatedImageWidget", "name": "flourish",
+            "fields": {
+                "anchor": { "x": -0.9218, "y": 0.5939},
+                "rect": { "x": 144, "y": 4, "scale":2 },
+                "filename": "PANEL\\Horadric_Cube\\Flourish",
+                "blendMode": "black",
+                "fps": 14,
+                "playing": false,
+                "loop": false,
+            }
+        }*/
+    ]
+}

@@ -1,0 +1,894 @@
+{
+  "dependencies": {
+    "particles": [],
+    "models": [
+      { "path": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds04.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_cinchona/cinchona02.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ferns/act3_fern05.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ferns/act3_fern07.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ferns/act3_fern08.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_climbing01.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging05.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging06.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_roots/act3_roots_ground01.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging03.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging04.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging05.model" },
+      { "path": "data/hd/env/foliage/global/model/act3_weeds/act3_clover01.model" },
+      { "path": "data/hd/env/model/act3/jungle/act3_jungle_totem/totem_d02.model" },
+      { "path": "data/hd/env/model/global/grunge/scum/grunge_scum01_80.model" },
+      { "path": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_rocks/rock_pile01.model" },
+      { "path": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_roots/jungle_roots10.model" },
+      { "path": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_roots/jungle_roots12.model" },
+      { "path": "data/hd/env/model/global/prop/act3/spider/act3_spider_ground/mound03.model" }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      { "path": "data/hd/env/foliage/act3/texture/act3_bush_palm01_alb.texture" },
+      { "path": "data/hd/env/foliage/act3/texture/act3_bush_palm01_B.texture" },
+      { "path": "data/hd/env/foliage/act3/texture/act3_bush_palm01_nrm.texture" },
+      { "path": "data/hd/env/foliage/act3/texture/act3_bush_palm01_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_cinchona01_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_cinchona01_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_cinchona01_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_cinchona01_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_elephant_ear02_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_elephant_ear02_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_elephant_ear02_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_elephant_ear02_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ferns_ALB.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ferns_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ferns_NRM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ferns_ORM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ivy_ALB.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ivy_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ivy_NRM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_ivy_ORM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_roots_ALB.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_roots_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_roots_NRM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_roots_ORM.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_weeds03_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_weeds03_b.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_weeds03_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act3_weeds03_orm.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_a_alb.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_a_nrm.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_a_orm.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_b_alb.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_b_nrm.texture" },
+      { "path": "data/hd/env/texture/act3/jungle/jungle_totems/act3_jungle_totem_d01_b_orm.texture" },
+      { "path": "data/hd/env/texture/global/decal/act3/act3_spider_lumpy_dirt01_alb.texture" },
+      { "path": "data/hd/env/texture/global/decal/act3/act3_spider_lumpy_dirt01_nrm.texture" },
+      { "path": "data/hd/env/texture/global/decal/act3/act3_spider_lumpy_dirt01_orm.texture" },
+      { "path": "data/hd/env/texture/global/decal/global/scum01_ALB.texture" },
+      { "path": "data/hd/env/texture/global/decal/global/scum01_NRM.texture" },
+      { "path": "data/hd/env/texture/global/decal/global/scum01_ORM.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/Act3_jungletreeroots01_alb.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/Act3_jungletreeroots01_nrm.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/Act3_jungletreeroots01_orm.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/act3_rocks_rocks02_alb.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/act3_rocks_rocks02_nrm.texture" },
+      { "path": "data/hd/env/texture/global/prop/act3/act3_rocks_rocks02_orm.texture" }
+    ],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "Prefab",
+  "name": "pf_jungle_totem_d_foliage02",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "act3_roots_hanging03_02",
+      "id": 106127394,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_roots_hanging03_02_components_TransformDefinitionComponent",
+          "position": { "x": -0.9879, "y": 11.6566, "z": 1.10769618 },
+          "orientation": { "x": 0.0429148152, "y": -0.715049744, "z": -0.0364447869, "w": 0.6968027 },
+          "scale": { "x": 0.7490065, "y": 0.7490065, "z": 0.7490065 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_roots_hanging03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_roots_hanging03_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "cinchona02_05",
+      "id": 978228698,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "cinchona02_05_components_TransformDefinitionComponent",
+          "position": { "x": -2.536, "y": -0.1556501, "z": 0.828796148 },
+          "orientation": { "x": 0.01982299, "y": -0.130144954, "z": 0.0600861, "w": 0.9894741 },
+          "scale": { "x": 0.86089766, "y": 0.86089766, "z": 0.86089766 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "cinchona02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_cinchona/cinchona02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "cinchona02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds02_16",
+      "id": 1833552531,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds02_16_components_TransformDefinitionComponent",
+          "position": { "x": -0.452600032, "y": 0.1088425, "z": -2.14660382 },
+          "orientation": { "x": 0.0, "y": 0.8933603, "z": 0.0, "w": 0.449341029 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_ivy_hanging06_01",
+      "id": 2365930271,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_ivy_hanging06_01_components_TransformDefinitionComponent",
+          "position": { "x": 1.51029992, "y": 12.80857, "z": -1.3985039 },
+          "orientation": { "x": 0.00637536729, "y": 0.7705155, "z": -0.0600101836, "w": 0.6345581 },
+          "scale": { "x": 0.6281587, "y": 0.6281587, "z": 0.6281587 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_ivy_hanging06_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging06.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_ivy_hanging06_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_fern05_01",
+      "id": 3238031576,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_fern05_01_components_TransformDefinitionComponent",
+          "position": { "x": -0.530400038, "y": 12.90338, "z": -0.591903865 },
+          "orientation": { "x": 0.0307836458, "y": 0.0237208754, "z": 0.157819837, "w": 0.986702859 },
+          "scale": { "x": 0.6324245, "y": 0.6324245, "z": 0.6324245 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_fern05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ferns/act3_fern05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_fern05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_clover01_43",
+      "id": 3787186533,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_clover01_43_components_TransformDefinitionComponent",
+          "position": { "x": 0.00929996, "y": -0.05653116, "z": 0.871196151 },
+          "orientation": { "x": 0.0, "y": 0.1548304, "z": 0.0, "w": 0.9879411 },
+          "scale": { "x": 1.033986, "y": 1.033986, "z": 1.033986 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_clover01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_weeds/act3_clover01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_clover01_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_roots_hanging05_02",
+      "id": 347543069,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_roots_hanging05_02_components_TransformDefinitionComponent",
+          "position": { "x": 0.496199965, "y": 11.97429, "z": -1.75560379 },
+          "orientation": { "x": -0.5086033, "y": -0.308886945, "z": 0.4850755, "w": 0.6407911 },
+          "scale": { "x": 0.470149755, "y": 0.470149755, "z": 0.470149755 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_roots_hanging05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_roots_hanging05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_ivy_climbing01_01",
+      "id": 1752415330,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_ivy_climbing01_01_components_TransformDefinitionComponent",
+          "position": { "x": 1.5442, "y": 0.355536, "z": 0.094096154 },
+          "orientation": { "x": -0.106133923, "y": 0.003407495, "z": 0.0223233, "w": 0.9940954 },
+          "scale": { "x": 0.8086062, "y": 0.881608844, "z": 0.8086062 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_ivy_climbing01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_climbing01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_ivy_climbing01_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "grunge_scum01_80_01",
+      "id": 2607345946,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "grunge_scum01_80_01_components_TransformDefinitionComponent",
+          "position": { "x": 0.194599956, "y": 12.98853, "z": 0.865396142 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.127456352, "y": 0.3632321, "z": 0.3632321 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "grunge_scum01_80_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/grunge/scum/grunge_scum01_80.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_roots_hanging04_02",
+      "id": 3479446995,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_roots_hanging04_02_components_TransformDefinitionComponent",
+          "position": { "x": 0.314999968, "y": 12.94691, "z": 0.713596165 },
+          "orientation": { "x": 0.0169139355, "y": -0.151567519, "z": 0.06299635, "w": 0.986292362 },
+          "scale": { "x": 0.6281587, "y": 0.6281587, "z": 0.6281587 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_roots_hanging04_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_roots_hanging04_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_roots_hanging03_01",
+      "id": 4011824992,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_roots_hanging03_01_components_TransformDefinitionComponent",
+          "position": { "x": 1.811, "y": 8.576557, "z": -0.031503845 },
+          "orientation": { "x": 0.0518551953, "y": 0.0179283228, "z": -0.143481374, "w": 0.9881309 },
+          "scale": { "x": 0.74900645, "y": 0.74900645, "z": 0.74900645 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_roots_hanging03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_roots/act3_roots_hanging03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_roots_hanging03_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_pile01_03",
+      "id": 572181272,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_pile01_03_components_TransformDefinitionComponent",
+          "position": { "x": 2.2062, "y": -0.05653116, "z": 1.46149611 },
+          "orientation": { "x": 0.0, "y": 0.5654236, "z": 0.0, "w": 0.82480067 },
+          "scale": { "x": 0.6531321, "y": 0.6531321, "z": 0.6531321 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_pile01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_rocks/rock_pile01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 2,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "jungle_roots10_01",
+      "id": 1138113957,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "jungle_roots10_01_components_TransformDefinitionComponent",
+          "position": { "x": -0.5267, "y": -0.05903718, "z": 1.21239614 },
+          "orientation": { "x": 0.14382723, "y": -0.676614463, "z": -0.7107889, "w": -0.127615377 },
+          "scale": { "x": 0.5684229, "y": 0.5684229, "z": 0.5684229 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "jungle_roots10_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_roots/jungle_roots10.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_roots_ground01_01",
+      "id": 1993437533,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_roots_ground01_01_components_TransformDefinitionComponent",
+          "position": { "x": -0.02770004, "y": 13.08068, "z": 0.498496145 },
+          "orientation": { "x": -0.0154650044, "y": 0.0284556448, "z": 0.134904668, "w": 0.990329146 },
+          "scale": { "x": 0.380383164, "y": 0.380383164, "z": 0.380383164 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "roots_ground01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_roots/act3_roots_ground01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_roots_ground01_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "jungle_roots12_03",
+      "id": 2865538582,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "jungle_roots12_03_components_TransformDefinitionComponent",
+          "position": { "x": 1.4827, "y": 0.3465556, "z": -0.34510383 },
+          "orientation": { "x": -0.603877664, "y": -0.373630852, "z": -0.401545644, "w": 0.5783536 },
+          "scale": { "x": 0.88480854, "y": 0.88480854, "z": 0.88480854 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "jungle_roots12_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act3/jungle/act3_jungle_roots/jungle_roots12.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_fern07_01",
+      "id": 3398310050,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_fern07_01_components_TransformDefinitionComponent",
+          "position": { "x": 0.123199962, "y": 0.1581373, "z": 2.57299614 },
+          "orientation": { "x": -0.1332053, "y": -0.708283961, "z": -0.05836925, "w": 0.690784454 },
+          "scale": { "x": 1.01131761, "y": 1.01131761, "z": 1.01131761 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_fern07_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ferns/act3_fern07.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_fern07_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "mound03_02",
+      "id": 4253240411,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "mound03_02_components_TransformDefinitionComponent",
+          "position": { "x": 0.20449996, "y": -0.1124828, "z": -0.7842038 },
+          "orientation": { "x": 0.0, "y": 0.741685748, "z": 0.0, "w": 0.6707475 },
+          "scale": { "x": 1.25, "y": 1.51469541, "z": 1.25 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "mound03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act3/spider/act3_spider_ground/mound03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": true,
+          "terrainBlendMode": 2
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "totem_d02_02",
+      "id": 830374163,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "totem_d02_02_components_TransformDefinitionComponent",
+          "position": { "x": -4.00493079e-8, "y": 0.0, "z": -3.84473424e-6 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition",
+                "center": { "x": 0.02583551, "y": 6.553441, "z": -0.02353787 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 2.43175, "y": 6.56114, "z": 3.073999 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/model/act3/jungle/act3_jungle_totem/totem_d02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "totem_d02_ModelPlatformTier",
+          "visibilityTier": -1,
+          "shadowTier": 0
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_ivy_hanging05_04",
+      "id": 1362752160,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_ivy_hanging05_04_components_TransformDefinitionComponent",
+          "position": { "x": 1.7757, "y": 5.393029, "z": -0.562403858 },
+          "orientation": { "x": -0.0158117451, "y": -0.168379143, "z": 0.012481546, "w": 0.9855164 },
+          "scale": { "x": 0.6281587, "y": 0.6281587, "z": 0.6281587 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_ivy_hanging05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_ivy_hanging05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds04_02",
+      "id": 2218075992,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds04_02_components_TransformDefinitionComponent",
+          "position": { "x": 1.7684, "y": 0.525129, "z": -0.71190387 },
+          "orientation": { "x": 0.0, "y": 0.8933603, "z": 0.0, "w": 0.449341029 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds04_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds04_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_ivy_hanging05_03",
+      "id": 2767231205,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_ivy_hanging05_03_components_TransformDefinitionComponent",
+          "position": { "x": 0.628699958, "y": 4.587008, "z": 1.64579618 },
+          "orientation": { "x": -0.1463748, "y": -0.591917157, "z": -0.100680828, "w": 0.7861755 },
+          "scale": { "x": 0.6281587, "y": 0.6281587, "z": 0.6281587 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_ivy_hanging05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_ivy_hanging05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_fern08_02",
+      "id": 3639332254,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_fern08_02_components_TransformDefinitionComponent",
+          "position": { "x": -2.1703, "y": 0.276105, "z": 1.63709617 },
+          "orientation": { "x": -0.1332053, "y": -0.708284, "z": -0.0583692528, "w": 0.690784454 },
+          "scale": { "x": 0.7902678, "y": 0.7902678, "z": 0.7902678 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_fern08_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ferns/act3_fern08.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_fern08_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act3_ivy_hanging05_02",
+      "id": 199623254,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act3_ivy_hanging05_02_components_TransformDefinitionComponent",
+          "position": { "x": 1.5611, "y": 7.712941, "z": -0.321103841 },
+          "orientation": { "x": -0.0777241662, "y": -0.18468909, "z": 0.068937026, "w": 0.977290452 },
+          "scale": { "x": 0.6281587, "y": 0.6281587, "z": 0.6281587 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act3_ivy_hanging05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act3_ivy/act3_ivy_hanging05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act3_ivy_hanging05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_beacon_nextarea_1",
+      "id": 586091854,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "prefab_TransformDefinitionComponent",
+          "position": { "x": 0.0, "y": -10.0, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 25.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "prefab_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/porory/beacon/pf_beacon_nextarea.json"
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_beacon_nextarea_2",
+      "id": 586091854,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "prefab_TransformDefinitionComponent",
+          "position": { "x": 0.0, "y": -10.0, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 1.0, "z": 0.0, "w": 0.0 },
+          "scale": { "x": 1.0, "y": 35.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "prefab_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/porory/beacon/pf_beacon_nextarea.json"
+        }
+      ]
+    }
+  ]
+}

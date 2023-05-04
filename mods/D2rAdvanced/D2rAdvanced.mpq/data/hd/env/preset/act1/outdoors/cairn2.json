@@ -1,0 +1,3531 @@
+{
+  "dependencies": {
+    "particles": [
+      { "path": "data/hd/vfx/particles/env/Act1/Outdoors/FX_Act1Outdoors_PondFlies_10x20.particles" },
+      { "path": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogBase.particles" },
+      { "path": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogGround.particles" }
+    ],
+    "models": [
+      { "path": "data/hd/env/foliage/act1/model/act1_bushes_hawthorn/act1_bush_hawthorn04.model" },
+      { "path": "data/hd/env/foliage/act1/model/act1_bushes_witchhazel/act1_bush_witchhazel01.model" },
+      { "path": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub01.model" },
+      { "path": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub02.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy01.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy03.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump01.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump04.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump05.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall01.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall02.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds03.model" },
+      { "path": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds05.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_flowers/daisy02.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_flowers/daisy03.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_grass/grass_clump01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_grunge/mud_puddle01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_grunge/mud01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_rocks/pebbles_cluster02.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_rocks/pebbles01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_rocks/pebbles02.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_rocks/pebbles04.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_weeds/weeds_patch01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_weeds/weeds01.model" },
+      { "path": "data/hd/env/model/global/decorator/act1/outdoors/act1_outdoors_weeds/weeds03.model" },
+      { "path": "data/hd/env/model/global/decorator/act3/act3_jungle_sticks/stick02.model" },
+      { "path": "data/hd/env/model/global/decorator/act3/act3_jungle_sticks/stick03.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster01.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster02.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster03.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/boulder01.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river02.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river04.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river05.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small01.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone01.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone02.model" },
+      { "path": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone04.model" },
+      { "path": "data/hd/env/preset/act1/outdoors/cairn2/terrain.model" },
+      { "path": "data/hd/objects/dummy/stone_sound_only/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_beta/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_delta/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/model/torso.model" },
+      { "path": "data/hd/objects/env_stone/stone_theta/model/torso.model" }
+    ],
+    "skeletons": [],
+    "animations": [],
+    "textures": [
+      { "path": "data/hd/env/biome/test.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_hawthorn04_alb.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_hawthorn04_B.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_hawthorn04_nrm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_hawthorn04_orm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub01_alb.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub01_B.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub01_nrm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub01_orm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub02_alb.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub02_B.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub02_nrm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_shrub02_orm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_witchhazel01_alb.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_witchhazel01_B.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_witchhazel01_nrm.texture" },
+      { "path": "data/hd/env/foliage/act1/texture/act1_bush_witchhazel01_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_daisies_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_daisies_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_daisies_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_daisies_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps_b.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps02_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_grassclumps02_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_alb.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_B.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act1_weeds_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act2_grassclumps_nrm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/act2_grassclumps_orm.texture" },
+      { "path": "data/hd/env/foliage/global/texture/default_B.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_markers/act1_Stones_dt1_Rocks_01_ALB.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_markers/act1_Stones_dt1_Rocks_01_NRM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_markers/act1_Stones_dt1_Rocks_01_ORM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_e_ALB.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_e_NRM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_e_ORM.texture" },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_a_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_a_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_a_orm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_b_alb.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_b_nrm.texture"
+      },
+      {
+        "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_fieldstone01_b_orm.texture"
+      },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_g_alb.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_g_nrm.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_g_orm.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_h_ALB.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_h_NRM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_h_ORM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_i_ALB.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_i_NRM.texture" },
+      { "path": "data/hd/env/texture/act1/outdoors/act1_outdoors_stones/act1_outdoors_stones_i_ORM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/act1_lumpy_dirt01_alb.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/act1_lumpy_dirt01_nrm.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/act1_lumpy_dirt01_orm.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/act1_mud01_ALB.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_ALB.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_NRM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_ORM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_ALB.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_NRM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_ORM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles01_ALB.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_NRM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_ORM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act3/act3_mud01_NRM.texture" },
+      { "path": "data/hd/env/texture/global/decal/act3/act3_mud01_ORM.texture" },
+      { "path": "data/hd/env/texture/global/decorator/act3/act3_stick01_alb.texture" },
+      { "path": "data/hd/env/texture/global/decorator/act3/act3_stick01_nrm.texture" },
+      { "path": "data/hd/env/texture/global/decorator/act3/act3_stick01_orm.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass02_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass02_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass02_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass03_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass03_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_grass03_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_moss03_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_moss03_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_moss03_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_mud01_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_mud01_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_mud01_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_path01_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_path01_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_path01_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_puddle01_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_puddle01_NRM.texture" },
+      { "path": "data/hd/env/texture/terrain/act1/outdoors/act1_outdoors_puddle01_ORM.texture" },
+      { "path": "data/hd/env/texture/terrain/default_NOISE.texture" },
+      { "path": "data/hd/env/texture/terrain/grass/act1_outdoors_grass_atlas02_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/grass/act1_outdoors_thatch_atlas01_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/grass/default_grass_ALB.texture" },
+      { "path": "data/hd/env/texture/terrain/noise/act1/act1_grass_tufty_NOISE.texture" },
+      { "path": "data/hd/env/texture/terrain/noise/act1/act1_grass_tufty_outline_NOISE.texture" },
+      { "path": "data/hd/env/texture/terrain/noise/act1/act1_outdoors_path01_NOISE.texture" },
+      { "path": "data/hd/env/texture/terrain/noise/act1/outdoors_grass01_NOISE.texture" },
+      { "path": "data/hd/env/texture/terrain/stamp/act1/act1_outdoors_cairn2_STAMP.texture" },
+      { "path": "data/hd/env/texture/terrain/stamp/act1/act1_outdoors_puddle03_STAMP.texture" },
+      { "path": "data/hd/env/texture/terrain/stamp/expansion/snowpatchlg_inv_3_STAMP.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_01_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/objects_env_stone_alpha_02_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_alpha/texture/StoneEmissives_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_01_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_01_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_01_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_02_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_02_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_beta/texture/objects_stone_beta_02_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_back_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_back_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_back_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_front_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_front_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_delta/texture/objects_env_stone_delta_front_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_01_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_01_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_01_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_02_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_02_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_gamma/texture/objects_env_stone_gamma_02_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_01_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_01_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_01_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_02_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_02_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_lambda/texture/Objects_env_stone_lambda_02_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_01_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_01_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_01_orm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_02_alb.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_02_nrm.texture" },
+      { "path": "data/hd/objects/env_stone/stone_theta/texture/objects_stone_theta_02_orm.texture" },
+      { "path": "data/hd/vfx/Library/PopcornFXCore/Materials/DefaultTextures/Distort.texture" },
+      { "path": "data/hd/vfx/textures/mask/T_FX_CircleSoft_Mask_01.texture" }
+    ],
+    "physics": [{ "path": "data/hd/env/preset/act1/outdoors/cairn2/terrain.physics" }],
+    "json": [{ "path": "data/hd/env/biome/act1_outdoors.json" }],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "Preset",
+  "name": "preset",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "act1_bush_witchhazel01_01",
+      "id": 737742661,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_bush_witchhazel01_01_TransformDefinitionComponent",
+          "position": { "x": 26.0, "y": 0.0, "z": 16.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent003",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition004",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition003",
+                "center": { "x": 0.8900232, "y": 2.882149, "z": -0.2850227 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 6.215721, "y": 4.147878, "z": 6.646894 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_bushes_witchhazel/act1_bush_witchhazel01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "AudioEmitterComponent",
+          "name": "act1_bush_witchhazel01_AudioEmitter",
+          "audioId": "",
+          "randomDelay": { "x": 0.0, "y": 0.0 },
+          "forceNoRandom": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "terrain",
+      "id": 2142287242,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "terrain_TransformDefinitionComponent",
+          "position": { "x": 0.0, "y": 0.0, "z": 0.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        { "type": "TerrainDefinitionComponent", "name": "terrain_TerrainDefinitionComponent" },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "terrain_ModelDefinitionComponent",
+          "filename": "data/hd/env/preset/act1/outdoors/cairn2/terrain.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "terrain_PhysicsBodyDefinitionComponent",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "physicsFixtureDefinition",
+              "shapetype": {
+                "type": "PhysicsFileDefinition",
+                "name": "physicsFileDefinition",
+                "filename": "data/hd/env/preset/act1/outdoors/cairn2/terrain.physics"
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "floor",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "puddle03_01",
+      "id": 371631444,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "puddle03_01_components_TransformDefinitionComponent",
+          "position": { "x": 71.07235, "y": 0.0, "z": 25.16433 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 20.0, "y": 10.0, "z": 30.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainStampDefinitionComponent",
+          "name": "puddle03_TerrainStampDefinition",
+          "mask": "data/hd/env/texture/terrain/stamp/act1/act1_outdoors_puddle03_STAMP.texture",
+          "stomp": 1.0,
+          "stompG": 0.0,
+          "stompB": 0.852,
+          "snapOptions": 7,
+          "biomeName": "act1_outdoors",
+          "layerIndexR": 4294967295,
+          "layerIndexG": 7,
+          "layerIndexB": 8
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_poppies_orange02_01",
+      "id": 1243339277,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_poppies_orange02_01_components_TransformDefinitionComponent",
+          "position": { "x": 74.27547, "y": 0.0, "z": 23.22996 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_daisy03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_01",
+      "id": 1792428954,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_01_components_TransformDefinitionComponent",
+          "position": { "x": 68.22673, "y": 3.729883e-15, "z": 21.02827 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_03",
+      "id": 2664530002,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_03_components_TransformDefinitionComponent",
+          "position": { "x": 68.11481, "y": 0.0, "z": 34.25505 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.8114326, "y": 1.8114326, "z": 1.8114326 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_03_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river04_01",
+      "id": 3519919370,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river04_01_components_TransformDefinitionComponent",
+          "position": { "x": 66.28705, "y": -0.355987, "z": 15.74466 },
+          "orientation": { "x": 0.0, "y": 0.5016179, "z": 0.0, "w": 0.8650893 },
+          "scale": { "x": 0.5812754, "y": 0.5812754, "z": 0.5812754 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river04_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river04_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river04_02",
+      "id": 4052231831,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river04_02_components_TransformDefinitionComponent",
+          "position": { "x": 64.52614, "y": -0.9024499, "z": 32.54052 },
+          "orientation": { "x": 0.0, "y": 0.0607547, "z": 0.0, "w": 0.998152733 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river04_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river04_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_02",
+      "id": 629365583,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_02_components_TransformDefinitionComponent",
+          "position": { "x": 70.76907, "y": -0.08213633, "z": 13.71664 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river05_03",
+      "id": 1161809116,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river05_03_components_TransformDefinitionComponent",
+          "position": { "x": 69.58778, "y": 0.0, "z": 31.75047 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.309939951, "y": 0.309939951, "z": 0.309939951 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river05_03_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river05_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_poppies_orange01_01",
+      "id": 2017460629,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_poppies_orange01_01_components_TransformDefinitionComponent",
+          "position": { "x": 68.1996, "y": 0.0, "z": 15.84969 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_daisy01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_daisy03_01",
+      "id": 2889168205,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_daisy03_01_components_TransformDefinitionComponent",
+          "position": { "x": 66.62189, "y": 0.0, "z": 22.40546 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_daisy03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small01_01",
+      "id": 3438389210,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small01_01_components_TransformDefinitionComponent",
+          "position": { "x": 64.91943, "y": 0.0, "z": 30.23447 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small01_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river05_01",
+      "id": 4293713042,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river05_01_components_TransformDefinitionComponent",
+          "position": { "x": 77.3928, "y": 0.0, "z": 19.81297 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.309939951, "y": 0.309939951, "z": 0.309939951 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river05_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river05_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_02",
+      "id": 870781003,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_02_components_TransformDefinitionComponent",
+          "position": { "x": 76.49316, "y": -0.08213633, "z": 16.02353 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.8114326, "y": 1.8114326, "z": 1.8114326 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_01",
+      "id": 1403224791,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_01_components_TransformDefinitionComponent",
+          "position": { "x": 67.92499, "y": 3.729883e-15, "z": 22.22934 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.8114326, "y": 1.8114326, "z": 1.8114326 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river02_01",
+      "id": 2258548368,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river02_01_components_TransformDefinitionComponent",
+          "position": { "x": 74.07251, "y": -0.9571282, "z": 16.24463 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river02_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_poppies_red02_01",
+      "id": 2790860829,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_poppies_red02_01_components_TransformDefinitionComponent",
+          "position": { "x": 67.57244, "y": 0.0, "z": 16.31961 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_daisy03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_daisies/act1_daisy03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river01_01",
+      "id": 3663355093,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river01_01_components_TransformDefinitionComponent",
+          "position": { "x": 76.11921, "y": 0.0, "z": 28.58632 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.879162431, "y": 0.879162431, "z": 0.879162431 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river01_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_03",
+      "id": 223383949,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_03_components_TransformDefinitionComponent",
+          "position": { "x": 72.68641, "y": 0.0, "z": 28.80721 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_03_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds03_01",
+      "id": 755696410,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds03_01_components_TransformDefinitionComponent",
+          "position": { "x": 71.91513, "y": 0.0, "z": 33.45084 },
+          "orientation": { "x": 0.0, "y": 0.112947784, "z": 0.0, "w": 0.9936009 },
+          "scale": { "x": 1.13900149, "y": 1.13900149, "z": 1.13900149 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds03_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds03_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds02_01",
+      "id": 1627797458,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds02_01_components_TransformDefinitionComponent",
+          "position": { "x": 76.13646, "y": -0.10616, "z": 23.49775 },
+          "orientation": { "x": 0.0, "y": 0.8835355, "z": 0.0, "w": 0.468364149 },
+          "scale": { "x": 1.06603038, "y": 1.06603038, "z": 1.06603038 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small01_02",
+      "id": 2483121291,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small01_02_components_TransformDefinitionComponent",
+          "position": { "x": 68.21946, "y": 0.0, "z": 33.1059 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small01_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone16_02",
+      "id": 3934244611,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone16_02_components_TransformDefinitionComponent",
+          "position": { "x": 4.0, "y": 0.0, "z": 74.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone16_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone16.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone16_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone03_02",
+      "id": 330523221,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone03_02_components_TransformDefinitionComponent",
+          "position": { "x": 44.05875, "y": 0.0, "z": 14.88372 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone03_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone03.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone03_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone02_02",
+      "id": 1666449809,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone02_02_components_TransformDefinitionComponent",
+          "position": { "x": 15.14883, "y": 0.0, "z": 44.75268 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone02_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone02.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone02_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone09_02",
+      "id": 3328314705,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone09_02_components_TransformDefinitionComponent",
+          "position": { "x": 26.38723, "y": 0.0, "z": 85.74944 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone09_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone09.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone09_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone00_02",
+      "id": 3151055818,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone00_02_components_TransformDefinitionComponent",
+          "position": { "x": 74.61504, "y": 0.0, "z": 56.08786 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone00_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone00.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone00_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone12_02",
+      "id": 2320678427,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone12_02_components_TransformDefinitionComponent",
+          "position": { "x": 44.97816, "y": 0.0, "z": 74.4425 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone12_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone12.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone12_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_06",
+      "id": 1220077481,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_06_components_TransformDefinitionComponent",
+          "position": { "x": 41.45628, "y": -0.1551569, "z": 47.46342 },
+          "orientation": { "x": 0.0, "y": 0.123220637, "z": 0.0, "w": 0.9923793 },
+          "scale": { "x": 2.313319, "y": 2.313319, "z": 2.313319 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_06_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_07",
+      "id": 2624556527,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_07_components_TransformDefinitionComponent",
+          "position": { "x": 48.54501, "y": -0.3131829, "z": 47.36533 },
+          "orientation": { "x": 0.0, "y": 0.9933984, "z": 0.0, "w": -0.114715375 },
+          "scale": { "x": 2.896371, "y": 2.896371, "z": 2.896371 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_07_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river01_03",
+      "id": 3721295778,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river01_03_components_TransformDefinitionComponent",
+          "position": { "x": 39.26076, "y": -0.8257461, "z": 55.57819 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.6692897, "y": 0.6692897, "z": 0.6692897 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river01_03_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river01_02",
+      "id": 610253809,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river01_02_components_TransformDefinitionComponent",
+          "position": { "x": 39.25574, "y": -0.2651963, "z": 42.17154 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.80779016, "y": 0.7847872, "z": 0.80779016 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river01_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone01_01",
+      "id": 3419146363,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone01_01_components_TransformDefinitionComponent",
+          "position": { "x": 54.33789, "y": -0.2447264, "z": 55.22747 },
+          "orientation": { "x": 0.0, "y": 0.240925312, "z": 0.0, "w": -0.9705437 },
+          "scale": { "x": 0.6753029, "y": 0.4286673, "z": 0.706231952 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone01_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone04_01",
+      "id": 2800557250,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone04_01_components_TransformDefinitionComponent",
+          "position": { "x": 56.38395, "y": -0.2129847, "z": 53.93079 },
+          "orientation": { "x": 0.0, "y": -0.7395015, "z": 0.0, "w": 0.67315495 },
+          "scale": { "x": 0.5853904, "y": 0.390263945, "z": 0.5853904 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone04_01_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone04_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone01_02",
+      "id": 216237618,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone01_02_components_TransformDefinitionComponent",
+          "position": { "x": 38.27058, "y": -0.4398671, "z": 31.84888 },
+          "orientation": { "x": 0.0, "y": -0.5646415, "z": 0.0, "w": 0.8253363 },
+          "scale": { "x": 0.8562322, "y": 0.4812283, "z": 0.8562322 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone01_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river02_07",
+      "id": 2014872341,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river02_07_components_TransformDefinitionComponent",
+          "position": { "x": 29.7101, "y": -0.122548, "z": 40.66537 },
+          "orientation": { "x": 0.0, "y": 0.9488372, "z": 0.0, "w": -0.3157657 },
+          "scale": { "x": 0.9087254, "y": 0.7390612, "z": 0.6455431 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river02_07_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_17",
+      "id": 2870261966,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_17_components_TransformDefinitionComponent",
+          "position": { "x": 50.38948, "y": -0.6677201, "z": 63.25351 },
+          "orientation": { "x": 0.0, "y": 0.924629867, "z": 0.0, "w": 0.380866975 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small01_08",
+      "id": 4291452435,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small01_08_components_TransformDefinitionComponent",
+          "position": { "x": 51.36319, "y": -0.07197414, "z": 36.25166 },
+          "orientation": { "x": 0.0, "y": -0.2250925, "z": 0.0, "w": 0.9743374 },
+          "scale": { "x": 1.8461417, "y": 1.8461417, "z": 1.8461417 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small01_08_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_14",
+      "id": 1702779783,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_14_components_TransformDefinitionComponent",
+          "position": { "x": 43.57527, "y": -0.08213633, "z": 60.97201 },
+          "orientation": { "x": 0.0, "y": -0.62994504, "z": 0.0, "w": 0.7766397 },
+          "scale": { "x": 1.875833, "y": 1.875833, "z": 1.875833 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_14_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river04_07",
+      "id": 3875978328,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river04_07_components_TransformDefinitionComponent",
+          "position": { "x": 30.39306, "y": 0.193487, "z": 45.90641 },
+          "orientation": { "x": 0.0, "y": 0.506351531, "z": 0.0, "w": 0.862327158 },
+          "scale": { "x": 0.4603068, "y": 0.4603068, "z": 0.51050514 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river04_07_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river04_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river02_08",
+      "id": 1857591126,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river02_08_components_TransformDefinitionComponent",
+          "position": { "x": 30.65722, "y": -0.249065, "z": 37.92894 },
+          "orientation": { "x": 0.0, "y": 0.155623123, "z": 0.0, "w": 0.9878165 },
+          "scale": { "x": 0.7215686, "y": 0.3752157, "z": 0.7215686 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river02_08_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_04",
+      "id": 2712914958,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_04_components_TransformDefinitionComponent",
+          "position": { "x": 48.55653, "y": 0.2660686, "z": 41.64819 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 2.59212518, "y": 2.59212518, "z": 2.59212518 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_04_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_08",
+      "id": 3797486703,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_08_components_TransformDefinitionComponent",
+          "position": { "x": 18.92439, "y": -0.08213633, "z": 60.90708 },
+          "orientation": { "x": 0.0, "y": 0.9217175, "z": 0.0, "w": -0.387861818 },
+          "scale": { "x": 2.313319, "y": 2.313319, "z": 2.313319 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_08_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone01_04",
+      "id": 2941566911,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone01_04_components_TransformDefinitionComponent",
+          "position": { "x": 25.41838, "y": -0.2447264, "z": 52.10788 },
+          "orientation": { "x": 0.0, "y": 0.9745405, "z": 0.0, "w": 0.224211544 },
+          "scale": { "x": 0.6753029, "y": 0.4286673, "z": 0.706231952 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone01_04_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone01_05",
+      "id": 2598395733,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone01_05_components_TransformDefinitionComponent",
+          "position": { "x": 43.34903, "y": -0.3203539, "z": 31.36678 },
+          "orientation": { "x": 0.0, "y": 0.974540532, "z": 0.0, "w": 0.2242115 },
+          "scale": { "x": 0.6141315, "y": 0.3898371, "z": 0.642258942 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone01_05_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river01_05",
+      "id": 3381020382,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river01_05_components_TransformDefinitionComponent",
+          "position": { "x": 56.83755, "y": -0.339483, "z": 30.32314 },
+          "orientation": { "x": 0.0, "y": 0.124189995, "z": 0.0, "w": 0.9922584 },
+          "scale": { "x": 0.879162431, "y": 0.879162431, "z": 0.879162431 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river01_05_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_05",
+      "id": 814387134,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_05_components_TransformDefinitionComponent",
+          "position": { "x": 42.36716, "y": 3.729883e-15, "z": 38.57215 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 2.65779138, "y": 2.65779138, "z": 2.65779138 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_05_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_05",
+      "id": 3753575106,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_05_components_TransformDefinitionComponent",
+          "position": { "x": 43.2871, "y": 0.05601445, "z": 40.52091 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_05_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small02_06",
+      "id": 3501099138,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small02_06_components_TransformDefinitionComponent",
+          "position": { "x": 56.50317, "y": 3.729883e-15, "z": 43.77769 },
+          "orientation": { "x": 0.0, "y": 0.5109118, "z": 0.0, "w": 0.859633148 },
+          "scale": { "x": 1.8114326, "y": 1.8114326, "z": 1.8114326 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small02_06_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_09",
+      "id": 4054273300,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_09_components_TransformDefinitionComponent",
+          "position": { "x": 59.63094, "y": 3.729883e-15, "z": 34.92284 },
+          "orientation": { "x": 0.0, "y": 0.6023979, "z": 0.0, "w": 0.7981959 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_09_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_10",
+      "id": 281016667,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_10_components_TransformDefinitionComponent",
+          "position": { "x": 31.04699, "y": 3.729883e-15, "z": 59.38552 },
+          "orientation": { "x": 0.0, "y": 0.6023979, "z": 0.0, "w": 0.798195958 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_10_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_river01_06",
+      "id": 1156234868,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_river01_06_components_TransformDefinitionComponent",
+          "position": { "x": 32.48822, "y": 0.0, "z": 50.85934 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.6571553, "y": 0.6571553, "z": 0.6989528 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_river01_06_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_river01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_river01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "rock_small03_11",
+      "id": 2581575869,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "rock_small03_11_components_TransformDefinitionComponent",
+          "position": { "x": 55.0681, "y": 3.729883e-15, "z": 43.13594 },
+          "orientation": { "x": 0.0, "y": 0.9729003, "z": 0.0, "w": 0.231225029 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "rock_small03_11_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "rock_small03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/rock_small03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "stone04_02",
+      "id": 730603498,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "stone04_02_components_TransformDefinitionComponent",
+          "position": { "x": 51.82112, "y": -0.2129847, "z": 61.31964 },
+          "orientation": { "x": -0.004044213, "y": 0.0585101061, "z": -0.08067576, "w": -0.995013356 },
+          "scale": { "x": 0.5853904, "y": 0.3902639, "z": 0.5853904 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "stone04_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "stone04_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_rocks/stone04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_stone08_02",
+      "id": 446512095,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pf_stone08_02_components_TransformDefinitionComponent",
+          "position": { "x": 15.65255, "y": 0.0, "z": 24.98185 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "pf_stone08_02_components_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/model/global/prop/act1/outdoors/prefab/stone_clusters/pf_stone08.json"
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pf_stone08_02_ModelPlatformTierComponent",
+          "visibilityTier": 0,
+          "shadowTier": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "cairn2_01",
+      "id": 2522449157,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "cairn2_01_TransformDefinitionComponent",
+          "position": { "x": 42.1465, "y": 0.0, "z": 48.20138 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 48.90251, "y": 48.90251, "z": 48.90251 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainStampDefinitionComponent",
+          "name": "cairn2_TerrainStampDefinition",
+          "mask": "data/hd/env/texture/terrain/stamp/act1/act1_outdoors_cairn2_STAMP.texture",
+          "stomp": 1.0,
+          "stompG": 0.55,
+          "stompB": 1.0,
+          "snapOptions": 5,
+          "biomeName": "act1_outdoors",
+          "layerIndexR": 2,
+          "layerIndexG": 5,
+          "layerIndexB": 4294967295
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "dirt01_path_03",
+      "id": 2358384144,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "dirt01_path_03_components_TransformDefinitionComponent",
+          "position": { "x": 41.68686, "y": 0.0, "z": 44.94691 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 14.7523985, "y": 14.7523985, "z": 14.7523985 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainDecalDefinitionComponent",
+          "name": "dirt01_path_TerrainDecalDefinition",
+          "albedo": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_ALB.texture",
+          "normal": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_NRM.texture",
+          "orm": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_dirt_pressed01_ORM.texture",
+          "stomp": 0.869,
+          "snapOptions": 0,
+          "parallaxScale": 1.738,
+          "biomeName": "act1_outdoors",
+          "layerIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "grass_dead01_02",
+      "id": 1894272557,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "grass_dead01_02_components_TransformDefinitionComponent",
+          "position": { "x": 23.0195, "y": 0.0, "z": 73.21913 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 14.7523985, "y": 14.7523985, "z": 14.7523985 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainDecalDefinitionComponent",
+          "name": "grass_dead01_TerrainDecalDefinition",
+          "albedo": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_ALB.texture",
+          "normal": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_NRM.texture",
+          "orm": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_grass_dead01_ORM.texture",
+          "stomp": 0.903,
+          "snapOptions": 0,
+          "parallaxScale": 1.0,
+          "biomeName": "act1_outdoors",
+          "layerIndex": 8
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "dirt_patch01_03",
+      "id": 2895465730,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "dirt_patch01_03_components_TransformDefinitionComponent",
+          "position": { "x": 23.52594, "y": 0.0, "z": 73.7785 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 14.0842905, "y": 17.15265, "z": 10.06133 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainStampDefinitionComponent",
+          "name": "dirt_patch01_TerrainStampDefinition",
+          "mask": "data/hd/env/texture/terrain/stamp/expansion/snowpatchlg_inv_3_STAMP.texture",
+          "stomp": 0.686,
+          "stompG": 0.998,
+          "stompB": 0.902,
+          "snapOptions": 0,
+          "biomeName": "act1_outdoors",
+          "layerIndexR": 2,
+          "layerIndexG": 4,
+          "layerIndexB": 7
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles01_02",
+      "id": 792510996,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles01_02_components_TransformDefinitionComponent",
+          "position": { "x": 34.92625, "y": 0.0, "z": 56.65684 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 14.7523985, "y": 14.7523985, "z": 14.7523985 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainDecalDefinitionComponent",
+          "name": "dirt01_TerrainDecalDefinition",
+          "albedo": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles01_ALB.texture",
+          "normal": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_NRM.texture",
+          "orm": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_ORM.texture",
+          "stomp": 1.0,
+          "snapOptions": 0,
+          "parallaxScale": 1.0,
+          "biomeName": "act1_outdoors",
+          "layerIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_tall02_04",
+      "id": 1120781772,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_tall02_04_components_TransformDefinitionComponent",
+          "position": { "x": 50.37918, "y": 0.0, "z": 29.84137 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.6390647, "y": 0.6390647, "z": 0.6390647 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_tall02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_bush_hawthorn04_08",
+      "id": 2772777220,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_bush_hawthorn04_08_components_TransformDefinitionComponent",
+          "position": { "x": 22.59634, "y": 0.0, "z": 75.17117 },
+          "orientation": { "x": -0.104801789, "y": 0.7510796, "z": 0.122965045, "w": -0.640137136 },
+          "scale": { "x": 0.812091768, "y": 0.812091768, "z": 0.812091768 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent001",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition002",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition001",
+                "center": { "x": 0.1210346, "y": 3.882406, "z": 0.6961432 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 4.998035, "y": 4.543527, "z": 6.744288 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_bushes_hawthorn/act1_bush_hawthorn04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "AudioEmitterComponent",
+          "name": "act1_bush_hawthorn04_AudioEmitter",
+          "audioId": "",
+          "randomDelay": { "x": 0.0, "y": 0.0 },
+          "forceNoRandom": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_bush_hawthorn04_09",
+      "id": 2211388343,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_bush_hawthorn04_09_components_TransformDefinitionComponent",
+          "position": { "x": 50.79335, "y": 0.0, "z": 35.13213 },
+          "orientation": { "x": 0.0846449956, "y": -0.643701851, "z": -0.137619168, "w": 0.748026848 },
+          "scale": { "x": 0.71778816, "y": 0.71778816, "z": 0.71778816 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent002",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition003",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition002",
+                "center": { "x": 0.1210346, "y": 3.882406, "z": 0.6961432 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 4.998035, "y": 4.543527, "z": 6.744288 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_bushes_hawthorn/act1_bush_hawthorn04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "AudioEmitterComponent",
+          "name": "act1_bush_hawthorn04_AudioEmitter",
+          "audioId": "",
+          "randomDelay": { "x": 0.0, "y": 0.0 },
+          "forceNoRandom": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_bush_hawthorn04_03",
+      "id": 3940544691,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_bush_hawthorn04_03_components_TransformDefinitionComponent",
+          "position": { "x": 31.7481, "y": 0.0, "z": 34.36861 },
+          "orientation": { "x": 0.0, "y": 0.4834762, "z": 0.0, "w": 0.8753575 },
+          "scale": { "x": 0.8003232, "y": 0.8003232, "z": 0.8003232 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition001",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition",
+                "center": { "x": 0.1210346, "y": 3.882406, "z": 0.6961432 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 4.998035, "y": 4.543527, "z": 6.744288 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_bushes_hawthorn/act1_bush_hawthorn04.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "AudioEmitterComponent",
+          "name": "act1_bush_hawthorn04_AudioEmitter",
+          "audioId": "",
+          "randomDelay": { "x": 0.0, "y": 0.0 },
+          "forceNoRandom": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_shrub01_02",
+      "id": 4251769459,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_shrub01_02_components_TransformDefinitionComponent",
+          "position": { "x": 48.39222, "y": 0.0, "z": 63.38547 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent004",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition005",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition004",
+                "center": { "x": -0.3754573, "y": 1.281519, "z": 0.007993937 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 3.379176, "y": 1.923503, "z": 3.081839 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_shrub01_03",
+      "id": 3713718293,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_shrub01_03_components_TransformDefinitionComponent",
+          "position": { "x": 33.48857, "y": 0.0, "z": 33.03623 },
+          "orientation": { "x": 0.0, "y": 0.65561974, "z": 0.0, "w": 0.7550912 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent005",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition006",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition005",
+                "center": { "x": -0.3754573, "y": 1.281519, "z": 0.007993937 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 3.379176, "y": 1.923503, "z": 3.081839 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster03_02",
+      "id": 620305100,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster03_02_components_TransformDefinitionComponent",
+          "position": { "x": 39.68156, "y": 0.0, "z": 41.49121 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 0.673824131, "y": 0.673824131, "z": 0.673824131 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pebbles_cluster03_ModelPlatformTier",
+          "visibilityTier": -1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster03_03",
+      "id": 2688941100,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster03_03_components_TransformDefinitionComponent",
+          "position": { "x": 57.93557, "y": 0.0, "z": 55.60762 },
+          "orientation": { "x": 0.0, "y": 0.7823059, "z": 0.0, "w": 0.622894466 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pebbles_cluster03_ModelPlatformTier",
+          "visibilityTier": -1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster03_04",
+      "id": 796553750,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster03_04_components_TransformDefinitionComponent",
+          "position": { "x": 34.11325, "y": 0.0, "z": 52.55358 },
+          "orientation": { "x": 0.0, "y": 0.7823059, "z": 0.0, "w": 0.622894466 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster03_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster03.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "pebbles_cluster03_ModelPlatformTier",
+          "visibilityTier": -1,
+          "shadowTier": 3
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster02_02",
+      "id": 1290754329,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster02_02_components_TransformDefinitionComponent",
+          "position": { "x": 37.61807, "y": 0.0, "z": 33.31831 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster02_03",
+      "id": 3632997045,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster02_03_components_TransformDefinitionComponent",
+          "position": { "x": 54.93428, "y": 0.0, "z": 34.50435 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster02_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles_cluster01_02",
+      "id": 3646425420,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles_cluster01_02_components_TransformDefinitionComponent",
+          "position": { "x": 26.4619, "y": 0.0, "z": 71.47953 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "pebbles_cluster01_ModelDefinitionComponent",
+          "filename": "data/hd/env/model/global/prop/act1/outdoors/act1_outdoors_pebbles/pebbles_cluster01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": true,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds02_03",
+      "id": 753090576,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds02_03_components_TransformDefinitionComponent",
+          "position": { "x": 37.25744, "y": 0.0, "z": 33.55452 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds02_05",
+      "id": 1410559259,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds02_05_components_TransformDefinitionComponent",
+          "position": { "x": 49.88836, "y": 0.0, "z": 59.41783 },
+          "orientation": { "x": 0.0, "y": -0.111496218, "z": 0.0, "w": 0.9937649 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_04",
+      "id": 643388835,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_04_components_TransformDefinitionComponent",
+          "position": { "x": 58.26421, "y": 0.0, "z": 53.66217 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_05",
+      "id": 2497934072,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_05_components_TransformDefinitionComponent",
+          "position": { "x": 60.13546, "y": 0.0, "z": 44.03861 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_06",
+      "id": 3652472302,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_06_components_TransformDefinitionComponent",
+          "position": { "x": 59.06617, "y": 0.0, "z": 37.62291 },
+          "orientation": { "x": 0.0, "y": 0.646495759, "z": 0.0, "w": 0.7629176 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump01_03",
+      "id": 4234640600,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump01_03_components_TransformDefinitionComponent",
+          "position": { "x": 27.95945, "y": 0.0, "z": 38.04984 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_shrub01_04",
+      "id": 43859130,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_shrub01_04_components_TransformDefinitionComponent",
+          "position": { "x": 52.44424, "y": 0.0, "z": 62.87433 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent006",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition007",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition006",
+                "center": { "x": -0.3754573, "y": 1.281519, "z": 0.007993937 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 3.379176, "y": 1.923503, "z": 3.081839 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_tall02_05",
+      "id": 2382057249,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_tall02_05_components_TransformDefinitionComponent",
+          "position": { "x": 51.11708, "y": 0.0, "z": 63.85218 },
+          "orientation": { "x": 0.0, "y": 0.9019614, "z": 0.0, "w": 0.431816667 },
+          "scale": { "x": 0.6390647, "y": 0.6390647, "z": 0.6390647 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_tall02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds02_07",
+      "id": 878278614,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds02_07_components_TransformDefinitionComponent",
+          "position": { "x": 50.62741, "y": 0.0, "z": 66.10912 },
+          "orientation": { "x": 0.0, "y": 0.6773068, "z": 0.0, "w": 0.735700667 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds02_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_10",
+      "id": 2064080440,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_10_components_TransformDefinitionComponent",
+          "position": { "x": 63.42868, "y": 0.0, "z": 54.09931 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_tall02_06",
+      "id": 2613694661,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_tall02_06_components_TransformDefinitionComponent",
+          "position": { "x": 62.47735, "y": 0.0, "z": 52.61551 },
+          "orientation": { "x": 0.0, "y": 0.7701546, "z": 0.0, "w": 0.637857258 },
+          "scale": { "x": 0.7355339, "y": 0.7355339, "z": 0.7355339 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_tall02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_weeds05_02",
+      "id": 2077309425,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_weeds05_02_components_TransformDefinitionComponent",
+          "position": { "x": 32.95127, "y": 0.0, "z": 52.04961 },
+          "orientation": { "x": 0.0, "y": 0.907421231, "z": 0.0, "w": -0.420222163 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_weeds05_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_weeds/act1_weeds05.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 0,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        },
+        {
+          "type": "ModelPlatformTierComponent",
+          "name": "act1_weeds05_ModelPlatformTier",
+          "visibilityTier": 1,
+          "shadowTier": -1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_shrub01_05",
+      "id": 3021695832,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_shrub01_05_components_TransformDefinitionComponent",
+          "position": { "x": 33.19246, "y": 0.0, "z": 51.08356 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PhysicsBodyDefinitionComponent",
+          "name": "PhysicsBodyDefinitionComponent007",
+          "bodytype": "static",
+          "fixturedefs": [
+            {
+              "type": "PhysicsFixtureDefinition",
+              "name": "PhysicsFixtureDefinition008",
+              "shapetype": {
+                "type": "PhysicsBoxDefinition",
+                "name": "PhysicsBoxDefinition007",
+                "center": { "x": -0.3754573, "y": 1.281519, "z": 0.007993937 },
+                "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+                "extents": { "x": 3.379176, "y": 1.923503, "z": 3.081839 }
+              },
+              "friction": 0.6,
+              "restitution": 0.0,
+              "rollingresistance": 0.2,
+              "impulsefactor": 1.0,
+              "explosionfactor": 1.0,
+              "explosionliftfactor": 1.0,
+              "windfactor": 0.0,
+              "dragfactor": 0.0,
+              "liftfactor": 1.0,
+              "density": 37.5,
+              "boneindex": -1
+            }
+          ],
+          "filter": "wall",
+          "allowTransition": true,
+          "removeOnDeath": true,
+          "lineardamping": 0.0,
+          "angulardamping": 0.0,
+          "gravityscale": 1.0
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "model",
+          "filename": "data/hd/env/foliage/act1/model/act1_shrubs/act1_shrub01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump01_04",
+      "id": 1743066320,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump01_04_components_TransformDefinitionComponent",
+          "position": { "x": 39.5199, "y": 0.0, "z": 43.3933 },
+          "orientation": { "x": 0.0, "y": -0.7160117, "z": 0.0, "w": 0.6980883 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_11",
+      "id": 1161925600,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_11_components_TransformDefinitionComponent",
+          "position": { "x": 41.44198, "y": 0.0, "z": 59.14509 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_clump02_12",
+      "id": 2962625271,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_clump02_12_components_TransformDefinitionComponent",
+          "position": { "x": 67.92097, "y": 0.0, "z": 42.32143 },
+          "orientation": { "x": 0.0, "y": 0.234873161, "z": 0.0, "w": 0.97202605 },
+          "scale": { "x": 1.060834, "y": 1.060834, "z": 1.060834 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_clump02_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_clump02.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_grass_tall01_07",
+      "id": 3607404065,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_grass_tall01_07_components_TransformDefinitionComponent",
+          "position": { "x": 32.48629, "y": -0.3583427, "z": 56.80441 },
+          "orientation": { "x": 0.0, "y": -0.8800609, "z": 0.0, "w": 0.4748608 },
+          "scale": { "x": 0.5005458, "y": 0.5005458, "z": 0.5005458 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "ModelDefinitionComponent",
+          "name": "act1_grass_tall01_ModelDefinitionComponent",
+          "filename": "data/hd/env/foliage/global/model/act1_grassclumps/act1_grass_tall01.model",
+          "visibleLayers": 1,
+          "lightMask": 19,
+          "shadowMask": 3,
+          "ghostShadows": false,
+          "floorModel": false,
+          "terrainBlendEnableYUpBlend": false,
+          "terrainBlendMode": 1
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pebbles01_03",
+      "id": 2945714566,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "pebbles01_03_components_TransformDefinitionComponent",
+          "position": { "x": 57.68024, "y": 0.0, "z": 34.32723 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 14.7523985, "y": 14.7523985, "z": 14.7523985 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "TerrainDecalDefinitionComponent",
+          "name": "dirt01_TerrainDecalDefinition",
+          "albedo": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles01_ALB.texture",
+          "normal": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_NRM.texture",
+          "orm": "data/hd/env/texture/global/decal/act1/outdoors/act1_outdoors_pebbles02_ORM.texture",
+          "stomp": 1.0,
+          "snapOptions": 0,
+          "parallaxScale": 1.0,
+          "biomeName": "act1_outdoors",
+          "layerIndex": 0
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "act1_outdoors_spot01_01",
+      "id": 937896015,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "act1_outdoors_spot01_01_TransformDefinitionComponent",
+          "position": { "x": 75.8958054, "y": 24.16215, "z": 73.56699 },
+          "orientation": { "x": 0.00275332527, "y": -0.899481058, "z": 0.176427782, "w": 0.399749249 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "SpotLightDefinitionComponent",
+          "name": "act1_outdoors_spot01_SpotLightDefinition",
+          "color": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "power": 2500.0,
+          "angle": 90.0,
+          "distance": 100.0,
+          "attenuation": 4.0,
+          "shadowCaster": false,
+          "lightMask": 1,
+          "isLocalLight": false,
+          "diffuseContribution": 1.0,
+          "specularContribution": 0.5
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "FX_Act1Outdoors_PondFlies_10x20_01",
+      "id": 173182994,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "FX_Act1Outdoors_PondFlies_10x20_01_TransformDefinitionComponent",
+          "position": { "x": 69.64949, "y": 0.0, "z": 24.0243359 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "FX_Act1Outdoors_PondFlies_10x20_VfxDefinition",
+          "filename": "data/hd/vfx/particles/env/Act1/Outdoors/FX_Act1Outdoors_PondFlies_10x20.particles",
+          "hardKillOnDestroy": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "FX_FogBase",
+      "id": 1299596074,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "FX_FogBase_components_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogBase.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "TransformDefinitionComponent",
+          "position": { "x": 31.82502, "y": 6.2e-5, "z": 32.16961 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "FX_FogGround",
+      "id": 865380421,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "FX_FogGround_components_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogGround.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "TransformDefinitionComponent001",
+          "position": { "x": 36.25244, "y": 3.1e-5, "z": 51.39178 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "FX_FogGround001",
+      "id": 3351826291,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "FX_FogGround001_components_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogGround.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "TransformDefinitionComponent002",
+          "position": { "x": 55.31165, "y": 6.2e-5, "z": 31.7409 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "FX_FogGround002",
+      "id": 3027226490,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "FX_FogGround002_components_VfxDefinitionComponent",
+          "filename": "data/hd/vfx/particles/env/Act1/Outdoors/FX_FogGround.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "TransformDefinitionComponent003",
+          "position": { "x": 17.5213, "y": 0.0, "z": 73.48717 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "pf_beacon_quest",
+      "id": 586091854,
+      "components": [
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "prefab_TransformDefinitionComponent",
+          "position": { "x": 40.0, "y": -10.0, "z": 40.0 },
+          "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+          "scale": { "x": 1.0, "y": 25.0, "z": 1.0 },
+          "inheritOnlyPosition": false
+        },
+        {
+          "type": "PrefabPlacementDefinitionComponent",
+          "name": "prefab_PrefabPlacementDefinitionComponent",
+          "prefab": "data/hd/env/porory/beacon/pf_beacon_quest.json"
+        }
+      ]
+    }
+  ],
+  "terrain": {
+    "type": "Entity",
+    "name": "terrain",
+    "id": 2142287242,
+    "components": [
+      {
+        "type": "TransformDefinitionComponent",
+        "name": "terrain_TransformDefinitionComponent",
+        "position": { "x": 0.0, "y": 0.0, "z": 0.0 },
+        "orientation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 },
+        "scale": { "x": 1.0, "y": 1.0, "z": 1.0 },
+        "inheritOnlyPosition": false
+      },
+      { "type": "TerrainDefinitionComponent", "name": "terrain_TerrainDefinitionComponent" },
+      {
+        "type": "ModelDefinitionComponent",
+        "name": "terrain_ModelDefinitionComponent",
+        "filename": "data/hd/env/preset/act1/outdoors/cairn2/terrain.model",
+        "visibleLayers": 1,
+        "lightMask": 19,
+        "shadowMask": 3,
+        "ghostShadows": false,
+        "floorModel": false,
+        "terrainBlendEnableYUpBlend": false,
+        "terrainBlendMode": 1
+      },
+      {
+        "type": "PhysicsBodyDefinitionComponent",
+        "name": "terrain_PhysicsBodyDefinitionComponent",
+        "bodytype": "static",
+        "fixturedefs": [
+          {
+            "type": "PhysicsFixtureDefinition",
+            "name": "physicsFixtureDefinition",
+            "shapetype": {
+              "type": "PhysicsFileDefinition",
+              "name": "physicsFileDefinition",
+              "filename": "data/hd/env/preset/act1/outdoors/cairn2/terrain.physics"
+            },
+            "friction": 0.6,
+            "restitution": 0.0,
+            "rollingresistance": 0.2,
+            "impulsefactor": 1.0,
+            "explosionfactor": 1.0,
+            "explosionliftfactor": 1.0,
+            "windfactor": 0.0,
+            "dragfactor": 0.0,
+            "liftfactor": 1.0,
+            "density": 37.5,
+            "boneindex": -1
+          }
+        ],
+        "filter": "floor",
+        "allowTransition": true,
+        "removeOnDeath": true,
+        "lineardamping": 0.0,
+        "angulardamping": 0.0,
+        "gravityscale": 1.0
+      }
+    ]
+  },
+  "biomeFilename": "data/hd/env/biome/act1_outdoors.json",
+  "perTileBiomeOverrides": [],
+  "specialTiles": {}
+}
