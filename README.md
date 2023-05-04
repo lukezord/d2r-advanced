@@ -24,7 +24,7 @@ diablo 2 resurrected mod with lootfilter
 - coloured item stats, item names for runewords
 - good bases for rare and magic items are marked with star sign
 
-#Screenshots:
+# Screenshots:
 
 ![D2R_6Y7drsEqcl](https://user-images.githubusercontent.com/13665931/236310102-e93305e5-5173-4582-a3a2-8ccbd167c2a5.jpg)
 ![D2R_zJsqwp7Lby](https://user-images.githubusercontent.com/13665931/236312181-8dd70ac8-f1ff-4339-ab08-cf7e2e9bdc0b.jpg)
